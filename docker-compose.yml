@@ -37,7 +37,6 @@ services:
 
   k6:
     image: loadimpact/k6:latest
-    reuseNode true
 #    entrypoint: /bin/sh
 #    user: root
     networks:
